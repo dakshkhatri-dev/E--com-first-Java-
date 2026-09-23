@@ -1,0 +1,107 @@
+# =========================================================
+# Spring Boot / Java / Maven
+# =========================================================
+
+# Maven build output
+target/
+build/
+*.class
+
+# Maven wrapper generated files
+.mvn/wrapper/maven-wrapper.jar
+
+
+# =========================================================
+# Spring Boot Local Configuration / Secrets
+# =========================================================
+
+# Local application configuration
+application.properties
+application.yml
+application.yaml
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local / secret configuration
+application-local.properties
+application-local.yml
+application-local.yaml
+secrets.properties
+secrets.yml
+secrets.yaml
+
+
+# =========================================================
+# Logs
+# =========================================================
+
+*.log
+logs/
+
+
+# =========================================================
+# IntelliJ IDEA
+# =========================================================
+
+.idea/
+*.iws
+*.iml
+*.ipr
+
+
+# =========================================================
+# Eclipse / Spring Tool Suite
+# =========================================================
+
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+.apt_generated/
+
+
+# =========================================================
+# VS Code
+# =========================================================
+
+.vscode/
+
+
+# =========================================================
+# NetBeans
+# =========================================================
+
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+
+# =========================================================
+# Gradle
+# =========================================================
+
+.gradle/
+
+
+# =========================================================
+# Java / JVM
+# =========================================================
+
+hs_err_pid*
+replay_pid*
+
+
+# =========================================================
+# Operating System
+# =========================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
