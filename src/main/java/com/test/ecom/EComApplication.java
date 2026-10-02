@@ -1,17 +1,28 @@
 package com.test.ecom;
 
-import org.flywaydb.core.Flyway;
-import org.flywaydb.core.internal.util.JsonUtils;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class EComApplication {
+/**
+ * Spring Starter Main method initiate application
+ * Does not catch by Global Exception Hnadler */
+
+
+    private static final Logger log =
+            LoggerFactory.getLogger(EComApplication.class);
+
 
     public static void main(String[] args) {
         SpringApplication.run(EComApplication.class, args);
 
-        System.out.println(" Migrations Setteled ! ");
+             log.info(" || Application Start ||");
+
+
     }
 
 }
