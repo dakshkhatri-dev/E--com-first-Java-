@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class EComApplication {
 /**
  * Spring Starter Main method initiate application
- * Does not catch by Global Exception Hnadler */
+ * Does not catch by Global Exception Handler */
 
 
     private static final Logger log =
