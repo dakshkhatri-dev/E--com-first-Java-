@@ -1,0 +1,28 @@
+package com.test.ecom.user.product.dto;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+@Getter
+@Setter
+@NoArgsConstructor
+public class ProductResponse {
+    private int productId;
+    private String brandCode;
+    private String brandName;
+    private String categorySlug;
+    private String categoryName;
+    private String subCategorySlug;
+    private String subCategoryName;
+    private String title;
+    private String description;
+    private String productSlug;
+
+    // List of variant items
+    private List<VariantResponse> variants = new ArrayList<>();
+}
